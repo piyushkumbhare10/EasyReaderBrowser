@@ -1,0 +1,19 @@
+{
+
+    "manifest_version": 2,
+    "name": "EasyReader",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "description": "Bolds the beginnings of words to make them easier to read.",
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["easyreader.js"]
+      }
+    ]
+  
+  }
+  
